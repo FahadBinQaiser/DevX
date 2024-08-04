@@ -1,0 +1,80 @@
+.trending {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #d69a9a;
+    font-family: "Space Grotesk", sans-serif;
+    margin: 20px 0; 
+    min-height: 30vh;
+    display: flex;
+    justify-content: center; /* Center align the heading */
+    align-items: center; /* Center align vertically */
+    margin-top: 100px;
+}
+.trending h1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    column-gap: 2rem; 
+}
+.trending h1::before,.trending h1::after{
+    content: "";
+    height: 2px;
+    background-color: #d69a9a;
+    display: block;
+}
+
+.carousel {
+    position: relative;
+    width: 100%; 
+    max-width: 1350px; /* Increased max-width for larger screens */
+    overflow: hidden;   
+    margin-top: 30px; /* Added margin-top for spacing */
+}
+
+.carousel-images {
+    transition: transform 0.4s ease-in-out;
+    display: flex;
+}
+
+.carousel img {
+    flex: 0 0 auto; /* Ensure images do not grow beyond their intrinsic width */
+    width: calc(100% / 3); /* Adjusted width to fit 5 images in a row */
+    height: auto;
+    border: none;
+    padding-right: 150px;
+    padding-left:50px;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+button.prev:hover, button.next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+@media (max-width:768px){
+    .carousel{
+        display: none;
+    }
+    .trending{
+        display: none !important;
+        margin-top: 30px;
+    }
+}

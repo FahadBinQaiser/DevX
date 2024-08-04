@@ -1,0 +1,74 @@
+.top-selling{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #d69a9a;
+    font-family: "Space Grotesk", sans-serif;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns with equal width */
+    gap: 30px; /* gap between grid items */
+    margin: 20px;
+}
+
+.box {
+    background-color: #d69a9a; 
+    color: black;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* slight shadow for depth */
+    transition: 0.4s all ease-out;
+}
+.box:hover{
+    transform: scale(1.06);
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;    
+}
+
+.price2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color:#1a3501;
+}
+
+.description {
+    color: white;
+}
+.buy-now2{
+    background-color: #570692;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 7px;
+}
+@media(max-width:768px){
+    .top-selling{
+        font-size: 1.4rem;
+    }
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust minimum item width */
+        gap: 15px; /* Reduce gap between grid items */
+    }
+    .box {
+        padding: 15px; /* Decrease padding inside each box */
+    }
+    .box img {
+        margin-bottom: 5px; /* Adjust margin for images */
+    }
+    .price2 {
+        font-size: 1rem; /* Decrease font size for price */
+    }
+    .buy-now2 {
+        margin-top: 20px;
+        padding: 8px 16px; /* Adjust padding for buttons */
+        font-size: 0.9rem; /* Decrease font size for buttons */
+    }
+}

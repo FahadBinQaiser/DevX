@@ -1,0 +1,46 @@
+.about-section {
+    background-color: #f8f9fa;
+    padding: 170px 0;
+    text-align: center;
+}
+
+.container-about {
+    max-width: 800px;
+    margin: 0 auto;
+    list-style-type: circle;
+}
+
+.about-heading {
+    font-size: 36px;
+    /* color: #333; */
+    margin-bottom: 30px;
+    font-family: "Space Grotesk";
+}
+
+.about-text {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-family: "poppins";
+    transition:1s ease-out;
+}
+.about-text:hover{
+    border-bottom: 1px solid #d69a9a;
+}
+@media(max-width:768px) {
+    .container-about {
+        margin: 30px;
+    }
+    
+    .about-heading {
+        font-size: 24px;
+    }
+    
+    .about-text {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+}
