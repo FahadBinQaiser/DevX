@@ -1,0 +1,51 @@
+.about {
+  padding: 50px 20px; /* Example: Adjust padding for spacing */
+  background-color: rgb(66, 66, 66);
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+.about-text {
+  flex: 1;
+  padding-right: 90px; /* Example: Adjust spacing between text and image */
+}
+
+.about-h2 {
+  font-size: 3rem;
+  font-family: "Anton SC", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  
+}
+
+.about-text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: white;
+}
+
+.highlight {
+  font-weight: bold;
+  /* color: #007bff;  */
+  color: yellow;
+}
+
+.about-image {
+  flex: 1;
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  max-height: 600px; /* Adjust maximum height as needed */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,55 @@
+.feature-section {
+  text-align: center;
+  color: white;
+  background-color: #1a1a1a;
+  padding: 80px 0; /* Ensure padding is only on top and bottom */
+}
+
+.feature-heading {
+  position: relative;
+  font-size: 10em;
+  font-weight: bold;
+  font-family: "Anton SC", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: rgba(255, 251, 251, 0.445);
+}
+
+.feature-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space items evenly */
+  gap: 20px; /* Add gap between items */
+  flex-wrap: nowrap; /* Prevent wrapping */
+  padding: 0 80px; /* Add padding to maintain spacing */
+}
+
+.image-container {
+  max-width: 40%; /* Set max width */
+}
+
+.two-gym, .two-gym2 {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 3px 4px 6px rgb(0, 0, 0), -3px -4px 6px rgb(0, 0, 0);
+}
+
+.content1 {
+  max-width: 50%; /* Set max width */
+  text-align: left;
+}
+
+.feature-second-heading {
+  font-size: 2.7em;
+  margin-bottom: 20px;
+}
+
+.content1 p {
+  font-size: 1.4em;
+  color: #ccc;
+}
+
+.highlight {
+  color: yellow;
+}

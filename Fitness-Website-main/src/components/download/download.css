@@ -1,0 +1,39 @@
+.feature-content {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-gym2 {
+    width: 100%;
+    max-height: 450px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 6px rgb(0, 0, 0), -3px -4px 6px rgb(0, 0, 0);
+    object-fit: cover;
+    margin-bottom: 100px;
+}
+
+.content1 {
+    flex: 1;
+    text-align: left;
+    /* margin-left: 60px; */
+    max-width: 50%;
+    margin-bottom: 40px;
+}
+
+.feature-second-heading {
+    font-size: 2.7em;
+    margin-bottom: 10px;
+    color: white;
+    text-overflow: uppercase;
+}
+.highlight{
+    color: yellow;
+}
