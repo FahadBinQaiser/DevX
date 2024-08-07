@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
 *{
     list-style-type: none;
 }
@@ -49,6 +52,8 @@
     font-size: 1.8em;
     color: #02488f;
     margin-bottom: 10px;
+    font-family: "Space Grotesk";
+    font-weight: bolder;
     text-align: center;
 }
 
@@ -56,10 +61,11 @@
     font-size: 1.5em;
     color: #02488f;
     margin-bottom: 20px;
+    font-family: "Poppins";
     text-align: center;
 }
 
-.package-details {
+.package-points {
     padding-left: 0; /* Reset padding */
     text-align: left;
     flex-grow: 1;
@@ -67,11 +73,13 @@
     margin-top: 10px; /* Adjust margin top */
 }
 
-.package-details li {
-    font-size: 1.1em;
+.package-points li {
+    font-size: 0.9em;
     color: #02488f;
     margin-bottom: 10px;
     text-align: left;
+    font-weight: 600;
+    font-family: "Poppins";
 }
 
 .package-btn {
@@ -85,7 +93,7 @@
     transition: background-color 0.3s;
     align-self: center;
     margin-top: 20px;
-    font-family: "poppins";
+    font-family: "Poppins";
 }
 
 .package-btn:hover {
